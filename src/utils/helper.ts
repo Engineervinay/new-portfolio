@@ -1,4 +1,4 @@
-import { BreakpointType, ProjectType } from '../types';
+import { BlogType, BreakpointType, ProjectType } from '../types';
 import tailwindConfig from '../../tailwind.config';
 import resolveConfig from 'tailwindcss/resolveConfig';
 
@@ -31,6 +31,10 @@ export const getId = () => `id${Math.random().toString(16).slice(2)}`;
 
 export const sortByYear = (projects: ProjectType[]) => {
   return projects.sort((a, b) => b.year - a.year);
+};
+
+export const sortBlogsByYear = (blogs: BlogType[]) => {
+  return blogs.sort((a, b) => b.year - a.year);
 };
 
 /**

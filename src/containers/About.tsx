@@ -19,24 +19,23 @@ const About = () => {
       <main className="flex gap-16 items-center lg:items-start flex-col lg:flex-row">
         <div className="space-y-4 lg:w-3/5">
           <p>
-            Hi, my name is Vatsal Singh, an artist as well as crazy full stack
-            web developer who wants to explore every tech stack.
+            Hi, I am Vinay Patil, Crafting innovative software solutions with  ReactJS and other tech stacks, as a passionate programmer.
+            In my computer Engineering Journey explored many tech stacks and want to explore more.
           </p>
           <p>
-            Fast-forward to today, and I’ve had the privilege of working at a
+            and I’ve had the privilege of working at a
             start-up -{' '}
             <Link
-              href="https://webnetic.vercel.app/"
+              href="https://unitylabs.ai/"
               target="_blank"
               className="text-accent"
             >
-              Webnetics
+             UnityLabs
             </Link>
             .
           </p>
           <p>
-            My main focus these days is learning mobile development and finding
-            a decent remote job.
+            My main focus these days is learning base of computer engineering and developing projects side by side.
           </p>
 
           {list && (

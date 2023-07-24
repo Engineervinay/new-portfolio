@@ -7,8 +7,10 @@ import {
   Skills,
   Contact,
   Projects,
+  
   Layout,
 } from '../containers';
+import Blogs from '../containers/Blogs';
 import { seoData } from '../utils/portfolio';
 
 /**
@@ -27,6 +29,7 @@ const Home: NextPage = () => {
         <Skills />
         <Experience />
         <Projects />
+        <Blogs/>
         <Contact />
       </Layout>
     </>

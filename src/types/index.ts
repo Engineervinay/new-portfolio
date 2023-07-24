@@ -33,6 +33,16 @@ export type ProjectType = {
   tags: string[];
   repo: string;
 };
+export type BlogType = {
+  id: string;
+  name: string;
+  url1: string;
+  url2:string;
+  year: number;
+  img: string;
+  description:string;
+  tags: string[];
+};
 
 export type StringKeyValueType = {
   [link: string]: string;

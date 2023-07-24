@@ -1,5 +1,6 @@
 import {
   AboutSectionType,
+  BlogsSectionType,
   ContactSectionType,
   ExperienceSectionType,
   FooterSectionType,
@@ -20,34 +21,34 @@ import { getId } from './helper';
  */
 
 export const socialLinks: StringKeyValueType = {
-  facebook: 'https://www.facebook.com/vatsalsinghkv',
-  instagram: 'https://www.instagram.com/vatsalsinghkv',
-  twitter: 'https://twitter.com/vatsalsinghkv',
-  github: 'https://github.com/vatsalsinghkv',
-  linkedin: 'https://www.linkedin.com/in/vatsalsinghkv/',
+  facebook: '#',
+  instagram: 'https://www.instagram.com/v.inay.patil',
+  twitter: 'https://twitter.com/engineervinay',
+  github: 'https://github.com/engineervinay',
+  linkedin: 'https://www.linkedin.com/in/engineervinay/',
 };
 
 export const author = {
-  name: 'Vatsal Singh',
-  email: 'vatsalsinghkv@gmail.com',
+  name: 'Vinay Patil',
+  email: 'vinaypatil11101@gmail.com',
 };
 
 export const seoData = {
-  title: 'Vatsal Singh | Full-Stack Developer',
+  title: 'Vinay Patil ',
   description:
-    'Vatsal Singh is a full-stack developer who specializes in building (and occasionally designing) exceptional visual interfaces.',
+    'Vinay Patil is a full-stack developer who specializes in building (and occasionally designing) exceptional visual interfaces.',
   author: author.name,
   image:
     'https://user-images.githubusercontent.com/68834718/217467445-0b0d2d63-f8ad-4702-8474-814eb2cbb3be.png',
   url: 'https://vatsalsinghkv.vercel.app/',
   keywords: [
-    'Vatsal',
-    'Vatsal Singh',
-    '@vatsalsinghkv',
-    'vatsalsinghkv',
+    'Vinay',
+    'Vinay Patil',
+    '@engineervinay',
+    'engineervinay',
     'Portfolio',
-    'Vatsal Portfolio ',
-    'Vatsal Singh Portfolio',
+    'Vinay Portfolio ',
+    'Vinay Patil Portfolio',
   ],
 };
 
@@ -77,13 +78,13 @@ export const navbarSection: NavbarSectionType = {
 
 export const heroSection: HeroSectionType = {
   subtitle: 'Hi, my name is',
-  title: 'vatsal singh.',
+  title: 'Vinay Patil.',
   tagline: 'I create visually pleasing interfaces for the web.',
   description:
-    "I'm a passionate Full Stack web developer having an experience of web applications with React.js & Next.js with TypeScript & TailwindCSS and UI/UX designing.",
+    "I'm a passionate Programmer having an experience of web applications with React.js & Next.js  & TailwindCSS and databases.",
   // description:
   //   "I'm a passionate Full Stack web developer having an experience of web  applications with React.js, Next.js and Blockchain development on Ethereum, Solidity and Web3.js.",
-  specialText: 'Currently available for remote job & freelance',
+  specialText: 'Currently available for remote or offline jobs & freelancing work',
   // either button or simple text (information)
   cta: {
     title: 'see my resume',
@@ -103,10 +104,10 @@ export const aboutSection: AboutSectionType = {
     items: [
       'NextJs',
       'TailwindCSS',
-      'ExpressJs',
-      'Solidity',
-      'TypeScript',
-      'Web3Js',
+      'Python',
+      'C++',
+      'ReactJS',
+      'SQL',
     ],
   },
   img: '/vatsal-singh.jpg',
@@ -128,29 +129,27 @@ export const skillsSection: SkillsSectionType = {
       points: [
         'Building responsive static websites using Next.js',
         'Building responsive Single Page Apps in React.js',
-        'Building RESTful APIs in Express',
+        'Building Projects in Python',
       ],
       softwareSkills: [
         // iconify icons: https://icon-sets.iconify.design/
         { name: 'html-5', icon: 'vscode-icons:file-type-html' },
         { name: 'CSS-3', icon: 'vscode-icons:file-type-css' },
-        { name: 'sass', icon: 'vscode-icons:file-type-sass' },
+        //{ name: 'sass', icon: 'vscode-icons:file-type-sass' },
         { name: 'javaScript', icon: 'vscode-icons:file-type-js-official' },
-        {
-          name: 'typeScript',
-          icon: 'vscode-icons:file-type-typescript-official',
-        },
+        //{  name: 'typeScript', icon: 'vscode-icons:file-type-typescript-official',},
         { name: 'python', icon: 'vscode-icons:file-type-python' },
-        { name: 'nodejs', icon: 'logos:nodejs-icon' },
+        //{ name: 'nodejs', icon: 'logos:nodejs-icon' },
         { name: 'reactjs', icon: 'logos:react' },
         { name: 'nextjs', icon: 'logos:nextjs-icon' },
         // { name: 'angularjs', icon: 'logos:angular-icon' },
         { name: 'tailwindcss', icon: 'logos:tailwindcss-icon' },
-        { name: 'redux', icon: 'logos:redux' },
+        //{ name: 'redux', icon: 'logos:redux' },
         { name: 'database', icon: 'vscode-icons:file-type-sql' },
-        { name: 'jest', icon: 'vscode-icons:file-type-jest' },
+        //{ name: 'jest', icon: 'vscode-icons:file-type-jest' },
       ],
     },
+    /* we can add coding profiles here or score in competitions
     {
       id: getId(),
       title: 'UI/UX designing',
@@ -169,7 +168,7 @@ export const skillsSection: SkillsSectionType = {
         { name: 'adobe photoshop', icon: 'logos:adobe-photoshop' },
       ],
     },
-    /* {
+     {
       id: getId(),
       title: 'blockchain development',
       lottie: {
@@ -197,27 +196,16 @@ export const experienceSection: ExperienceSectionType = {
   title: "where i've worked",
   experiences: [
     {
-      company: 'webnetics',
-      companyUrl: 'https://webnetic.vercel.app/',
-      role: 'frontend developer',
-      started: 'june 2022',
-      upto: 'january 2023',
+      company: 'UnityLabs',
+      companyUrl: 'https://unitylabs.ai/',
+      role: 'frontend Intern',
+      started: 'Feb 2022',
+      upto: 'May 2022',
       tasks: [
-        'Built static frontend UI from the ground up using Next.js and Figma handover designs.',
-        'Architected the folder structure and initial setup of the app.',
+        'Responsible for developing web components and web Pages using Next.js, React, and gatsby.',
+        'Developed Next.js slug template for thousands of web pages.',
         'Reviewed and approved multiple Pull requests.',
-        'Worked remotely with a distributed team from around the globe, collaborating closely using screen-sharing.',
-      ],
-    },
-    {
-      company: 'Kronos',
-      companyUrl: 'https://kronos-sscbs-21.github.io/proj-kronos-site/',
-      role: 'designer & developer',
-      started: 'january 2021',
-      upto: 'june 2021',
-      tasks: [
-        'Designed social media posts.',
-        'Worked remotely with designing & tech team.',
+        'Worked with backend APIs for information gathering. optimized SEO components for company products',
       ],
     },
   ],
@@ -230,76 +218,41 @@ export const projectsSection: ProjectsSectionType = {
   projects: [
     {
       id: getId(),
-      name: 'fylo landing page',
-      url: 'https://fylo-kv.netlify.app/',
-      repo: 'https://github.com/vatsalsinghkv/fylo',
+      name: 'Emoji Recognizer using React',
+      url: 'https://03e2y.csb.app//',
+      repo: 'https://github.com/Engineervinay/Emoji-Recognizer',
       img: 'https://user-images.githubusercontent.com/68834718/212843973-ef864a5a-f393-4901-b422-6f775a043cdb.png',
       year: 2023,
-      tags: ['Html', 'Tailwind', 'TS'],
+      tags: ['Html', 'React', 'CSS'],
     },
     {
       id: getId(),
-      name: 'remotive jobs',
-      url: 'https://remotive-jobs.vercel.app/',
-      repo: 'https://github.com/vatsalsinghkv/remotive-jobs',
+      name: 'LeetSpeek Translator using javascript',
+      url: 'https://leettranslator.netlify.app/',
+      repo: 'https://github.com/Engineervinay/translator-JS',
       img: 'https://user-images.githubusercontent.com/68834718/189035104-aa71647e-33e4-442a-a2f9-c0d50bba2db1.png',
       year: 2022,
-      tags: ['Nextjs', 'Sass'],
+      tags: ['HTML', 'Javascript','CSS'],
     },
     {
       id: getId(),
-      name: 'countries app',
-      url: 'https://countries-app-kv.netlify.app/',
-      repo: 'https://github.com/vatsalsinghkv/rest-countries-api',
+      name: 'Instagram Bot',
+      url: 'https://youtu.be/Gtufx3DYO68',
+      repo: 'https://github.com/Engineervinay/InstgramBot',
       img: 'https://user-images.githubusercontent.com/68834718/169527851-19fefb2e-e440-411a-a8a1-4767e2c8688a.png',
       year: 2022,
-      tags: ['React', 'Sass'],
+      tags: ['Python', 'Beautisoup'],
     },
     {
       id: getId(),
-      name: 'rock paper scissors',
-      url: 'https://rock-paper-scissors-kv.netlify.app/',
-      repo: 'https://github.com/vatsalsinghkv/rock-paper-scissors',
+      name: 'Automated Student Result Exctractor and Analyzer',
+      url: 'https://github.com/Engineervinay/diploma-final-year-project-',
+      repo: 'https://github.com/Engineervinay/diploma-final-year-project-',
       img: 'https://user-images.githubusercontent.com/68834718/162578706-b9e57735-6fbc-4c7b-8243-2a6ba447404e.jpg',
       year: 2022,
-      tags: ['React', 'Sass'],
+      tags: ['HTML', 'CSS','PHP'],
     },
-    {
-      id: getId(),
-      name: 'todo app',
-      url: 'https://todo-kv.netlify.app/',
-      repo: 'https://github.com/vatsalsinghkv/todo-app',
-      img: 'https://user-images.githubusercontent.com/68834718/152794002-0e7bc583-084b-4c39-83bb-d82d5dd642b2.png',
-      year: 2022,
-      tags: ['React', 'Sass', 'JS'],
-    },
-    {
-      id: getId(),
-      name: 'weather app',
-      url: 'https://weather-kv.netlify.app/',
-      repo: 'https://github.com/vatsalsinghkv/weather-app',
-      img: 'https://user-images.githubusercontent.com/68834718/148419702-491fa08d-e520-4e2f-b219-374ec7118b2b.png',
-      year: 2022,
-      tags: ['Html', 'sass', 'JS', 'jQuery'],
-    },
-    {
-      id: getId(),
-      name: 'blogr landing page',
-      url: 'https://blogr-kv.netlify.app/',
-      repo: 'https://github.com/vatsalsinghkv/blogr-landing-page',
-      img: 'https://user-images.githubusercontent.com/68834718/210222542-6455303d-c93e-430b-a5c8-96a431044184.png',
-      year: 2021,
-      tags: ['html', 'sass', 'JS'],
-    },
-    {
-      id: getId(),
-      name: 'natours',
-      url: 'https://natours-kv.netlify.app/',
-      repo: 'https://github.com/vatsalsinghkv/natours',
-      img: 'https://user-images.githubusercontent.com/68834718/210223114-b4f64b44-2501-49c9-9fb7-b8e53fe654c6.png',
-      year: 2021,
-      tags: ['html', 'sass', 'JS'],
-    },
+    
     // {
     //   name: 'nexter',
     //   url: 'https://vatsalsinghkv.github.io/nexter/',
@@ -308,53 +261,71 @@ export const projectsSection: ProjectsSectionType = {
     //   year: 2021,
     //   tags: ['html', 'sass'],
     // },
+    
+  ],
+};
+
+
+// * blogs section
+
+export const blogsSection: BlogsSectionType = {
+  title: 'my Blogs',
+  blogs: [
     {
       id: getId(),
-      name: 'IP address tracker',
-      url: 'https://vatsalsinghkv.github.io/ip-address-tracker/',
-      repo: 'https://github.com/vatsalsinghkv/ip-address-tracker',
-      img: 'https://user-images.githubusercontent.com/68834718/210223386-03bcaa20-e649-4b3d-8709-59e42c6d685a.png',
-      year: 2021,
-      tags: ['html', 'bootstrap', 'JS'],
+      name: 'Git for Kids? ',
+      url1: 'https://vinaypatil.hashnode.dev/git-for-kids',
+      url2: 'https://dev.to/engineervinay/git-for-kids-fok',
+      img: 'https://user-images.githubusercontent.com/68834718/212843973-ef864a5a-f393-4901-b422-6f775a043cdb.png',
+      year: 2020,
+      description:'What is git? If you are in the technology field then you may have heard about git, GitHub, opensource, are they all same and why do you have to know about them...Read More ',
+      tags: ['Html', 'React', 'CSS'],
+    },    {
+      id: getId(),
+      name: 'AGI & ANI',
+      url1: 'https://vinaypatil.hashnode.dev/what-is-agi-and-ani',
+      url2: 'https://dev.to/engineervinay/what-is-agi-ani-1l37',
+      img: 'https://user-images.githubusercontent.com/68834718/212843973-ef864a5a-f393-4901-b422-6f775a043cdb.png',
+      year: 2023,
+      description:'Artificial intelligence is one of the most trending topics in the technology field right now, lets see first what is... ',
+  
+      tags: ['Ai', 'Artificial Intelligence'],
+    },    {
+      id: getId(),
+      name: 'HTTP Requests',
+      url1: 'https://vinaypatil.hashnode.dev/what-is-http-requests',
+      url2: 'https://dev.to/engineervinay/http-requests-and-methods-2bk',
+      img: 'https://user-images.githubusercontent.com/68834718/212843973-ef864a5a-f393-4901-b422-6f775a043cdb.png',
+      year: 2022,
+      description:'In this article, we are going to talk about Requests in HTTP, but first what is this HTTP?... ',
+  
+      tags: ['Html', 'React', 'CSS'],
     },
     {
       id: getId(),
-      name: 'calculator app',
-      url: 'https://vatsalsinghkv.github.io/calculator-app/',
-      repo: 'https://github.com/vatsalsinghkv/calculator-app/',
-      img: 'https://user-images.githubusercontent.com/68834718/210223825-3b68d696-39c6-490c-9433-f315b7efccbd.png',
-      year: 2021,
-      tags: ['html', 'CSS', 'JS'],
+      name: 'My PostgreSQL Notes',
+      url1: 'https://03e2y.csb.app//',
+      url2: 'https://dev.to/engineervinay/my-postgresql-notes-1a21',
+      img: 'https://user-images.githubusercontent.com/68834718/212843973-ef864a5a-f393-4901-b422-6f775a043cdb.png',
+      year: 2023,
+      description:' Discover the power of PostgreSQL for efficient data management. This beginner-friendly blog takes you step-by-step through PostgreSQL. ',
+  
+      tags: ['Html', 'React', 'CSS'],
     },
     {
       id: getId(),
-      name: 'pig game',
-      url: 'https://vatsalsinghkv.github.io/pig-game/',
-      repo: 'https://github.com/vatsalsinghkv/pig-game',
-      img: 'https://user-images.githubusercontent.com/68834718/210223527-de7fde7a-244e-4db5-8e33-d561afad6084.png',
-      year: 2021,
-      tags: ['html', 'CSS', 'JS'],
-    },
-    {
-      id: getId(),
-      name: 'bankist marketing',
-      url: 'https://vatsalsinghkv.github.io/bankist-marketing/',
-      repo: 'https://github.com/vatsalsinghkv/bankist-marketing',
-      img: 'https://user-images.githubusercontent.com/68834718/210225545-989f79c3-cf05-4c53-b48e-b21f373b3734.png',
-      year: 2021,
-      tags: ['html', 'CSS', 'JS'],
-    },
-    {
-      id: getId(),
-      name: 'digital clock',
-      url: 'https://vatsalsinghkv.github.io/digital-clock/',
-      repo: 'https://github.com/vatsalsinghkv/digital-clock',
-      img: 'https://user-images.githubusercontent.com/68834718/210226274-a453ba15-9b83-4577-a84d-e4b88e0a5605.png',
-      year: 2021,
-      tags: ['html', 'CSS', 'JS'],
+      name: 'Emoji Recognizer using React',
+      url1: 'https://03e2y.csb.app//',
+      url2: 'https://03e2y.csb.app//',
+      img: 'https://user-images.githubusercontent.com/68834718/212843973-ef864a5a-f393-4901-b422-6f775a043cdb.png',
+      year: 2023,
+      description:'What is git? If you are in the technology field then you may have heard about git, GitHub, opensource, are they all same and why do you have to know about them...Read More ',
+  
+      tags: ['Html', 'React', 'CSS'],
     },
   ],
 };
+
 
 // * Contact Section
 
@@ -398,6 +369,6 @@ export const socialSection: SocialSectionType = {
 // Footer Section
 
 export const footerSection: FooterSectionType = {
-  title: 'Design & Built by Vatsal Singh',
-  link: 'https://github.com/vatsalsinghkv/portfolio-website',
+  title: '@Vinay Patil',
+  link: '#',
 };
