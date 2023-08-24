@@ -21,11 +21,12 @@ import { getId } from './helper';
  */
 
 export const socialLinks: StringKeyValueType = {
-  facebook: '#',
+  
   instagram: 'https://www.instagram.com/v.inay.patil',
-  twitter: 'https://twitter.com/engineervinay',
+  twitter: 'https://twitter.com/meengineervinay',
   github: 'https://github.com/engineervinay',
   linkedin: 'https://www.linkedin.com/in/engineervinay/',
+  youtube:'https://www.youtube.com/@engineervinay/'
 };
 
 export const author = {
@@ -79,9 +80,9 @@ export const navbarSection: NavbarSectionType = {
 export const heroSection: HeroSectionType = {
   subtitle: 'Hi, my name is',
   title: 'Vinay Patil.',
-  tagline: 'I create visually pleasing interfaces for the web.',
+  tagline: 'I Code👨‍💻.',
   description:
-    "I'm a passionate Programmer having an experience of web applications with React.js & Next.js  & TailwindCSS and databases.",
+    "I'm a passionate Programmer having an experience of web applications with React.js and databases. I like creating software.",
   // description:
   //   "I'm a passionate Full Stack web developer having an experience of web  applications with React.js, Next.js and Blockchain development on Ethereum, Solidity and Web3.js.",
   specialText: 'Currently available for remote or offline jobs & freelancing work',
@@ -110,7 +111,7 @@ export const aboutSection: AboutSectionType = {
       'SQL',
     ],
   },
-  img: '/vatsal-singh.jpg',
+  img: '/Vinay.jpg',
 };
 
 // * Skills Section
@@ -360,9 +361,10 @@ export const socialSection: SocialSectionType = {
       url: socialLinks.linkedin,
     },
     {
-      icon: 'lucide:facebook',
-      url: socialLinks.facebook,
+      icon: 'lucide:youtube',
+      url: socialLinks.youtube,
     },
+    
   ],
 };
 
