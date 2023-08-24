@@ -19,7 +19,7 @@ const About = () => {
       <main className="flex gap-16 items-center lg:items-start flex-col lg:flex-row">
         <div className="space-y-4 lg:w-3/5">
           <p>
-            Hi, I am Vinay Patil, Crafting innovative software solutions with  ReactJS and other tech stacks, as a passionate programmer.
+            Hi, I am Vinay Patil, Crafting innovative software solutions with  ReactJS,Python and other tech stacks, as a passionate programmer.
             In my computer Engineering Journey explored many tech stacks and want to explore more.
           </p>
           <p>
