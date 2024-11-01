@@ -37,7 +37,7 @@ export const author = {
 export const seoData = {
   title: 'Vinay Patil ',
   description:
-    'Vinay Patil is a full-stack developer who specializes in building (and occasionally designing) exceptional visual interfaces.',
+    'Vinay Patil is a full-stack developer who specializes in building (and occasionally designing) exceptional visual interfaces. A Programmer',
   author: author.name,
   image:
     'https://user-images.githubusercontent.com/68834718/217467445-0b0d2d63-f8ad-4702-8474-814eb2cbb3be.png',
@@ -82,7 +82,7 @@ export const heroSection: HeroSectionType = {
   title: 'Vinay Patil.',
   tagline: 'I Code👨‍💻.',
   description:
-    "I'm a passionate Programmer having an experience of web applications with React.js and databases. I like creating software.",
+    "I'm a passionate Programmer having an experience of developing Web Applications. I like developing software. ",
   // description:
   //   "I'm a passionate Full Stack web developer having an experience of web  applications with React.js, Next.js and Blockchain development on Ethereum, Solidity and Web3.js.",
   specialText: 'Currently available for remote or offline jobs & freelancing work',
@@ -103,10 +103,10 @@ export const aboutSection: AboutSectionType = {
   list: {
     title: 'Here are a few technologies I’ve been working with recently:',
     items: [
-      'NextJs',
-      'TailwindCSS',
-      'Python',
       'C++',
+      'TailwindCSS',
+      'C',
+      'Next.js',
       'ReactJS',
       'SQL',
     ],
@@ -196,6 +196,18 @@ export const skillsSection: SkillsSectionType = {
 export const experienceSection: ExperienceSectionType = {
   title: "where i've worked",
   experiences: [
+    {
+      company: 'Tata Consultancy Services (TCS)',
+      companyUrl: 'https://www.tcs.com',
+      role: 'Software Engineer',
+      started: 'Oct 2023',
+      upto: 'Present',
+      tasks: [
+        'Software Developer at National Stock Exchange proficient in C, C++ and Unix',
+        'Working on Equity and Commodity segments,implementing ecient trade matching algorithms and optimizing the contract trading architecture.',
+        'deployed new features, improving system reliability, and throughput in a real-time high frequency trading environment',
+      ],
+    },
     {
       company: 'UnityLabs',
       companyUrl: 'https://unitylabs.ai/',

@@ -20,7 +20,12 @@ const About = () => {
         <div className="space-y-4 lg:w-3/5">
           <p>
             Hi, I am Vinay Patil, Crafting innovative software solutions with  ReactJS,Python and other tech stacks, as a passionate programmer.
-            In my computer Engineering Journey explored many tech stacks and want to explore more.
+            Presently developing in C and C++ for the 
+            <Link
+              href="https://www.nseindia.com"
+              target="_blank"
+              className="text-accent"
+            >National Stock Exchange's</Link> trading environment, focused on equity and commodity markets.
           </p>
           <p>
             and I’ve had the privilege of working at a
