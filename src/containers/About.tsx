@@ -25,7 +25,7 @@ const About = () => {
               href="https://www.nseindia.com"
               target="_blank"
               className="text-accent"
-            >National Stock Exchange's</Link> trading environment, focused on equity and commodity markets.
+            > National Stock Exchange's</Link> trading environment, focused on equity and commodity markets.
           </p>
           <p>
             and I’ve had the privilege of working at a

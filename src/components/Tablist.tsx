@@ -21,7 +21,7 @@ const Tablist = ({ experiences }: Props) => {
   const sliderStyle =
     windowWidth <= sm
       ? {
-          left: `calc(${activeExperience}*120px)`,
+          left: `calc(${activeExperience}*150px)`,
         }
       : {
           top: `calc(${activeExperience}*2.5rem)`,
